@@ -23,7 +23,7 @@ jobs:
         run: make
 
       - name: Run main program (optional)
-        run: ./build/main
+        run: ./build/test_algorithms
 
       - name: Run tests
         run: make test
